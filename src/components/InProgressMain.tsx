@@ -1,14 +1,22 @@
+import { useEffect } from "react";
 import { FaWhatsapp, FaTelegram, FaInstagram, FaYoutube } from "react-icons/fa";
 import background from "../assets/background1.png"
 
 const InProgressMain = () => {
+  
+  useEffect(() => {
+    const img = new Image();
+    img.src = background;
+  }, []);
+
   return (
     <div
-      className="flex flex-col items-center justify-center min-h-screen w-full text-white"
+      className="flex flex-col items-center justify-center min-h-screen w-full text-white fade-in-bg"
       style={{
         backgroundImage: `url(${background})`,
         backgroundSize: "cover",
-        // backgroundPosition: "center",
+         backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
       }}
     >
       <div className="text-center mb-6">
