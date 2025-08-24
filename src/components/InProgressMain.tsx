@@ -12,7 +12,7 @@ const InProgressMain = () => {
       }}
     >
       <div className="text-center mb-6">
-        <h1 className="text-5xl font-bold text-white">
+        <h1 className="text-5xl font-bold text-white sm:text-3xl">
           Наш сайт находится в разработке
         </h1>
       </div>
