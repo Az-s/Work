@@ -1,5 +1,5 @@
 import { FaWhatsapp, FaTelegram, FaInstagram, FaYoutube } from "react-icons/fa";
-import background from "../assets/background.png"
+import background from "../assets/background.jpg"
 
 const InProgressMain = () => {
   return (
